@@ -28,14 +28,14 @@
 }
 
 .sp-navbar .navbar-brand {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cormorant Garamond', serif !important;
     text-transform: uppercase;
     font-size: 14px;
     color: black;
 }
 
 .sp-navbar .nav-item {
-    font-family: 'Cormorant Garamond', serif !important;
+    font-family: 'Josefin Sans', sans-serif !important;
     font-weight: 400;
     font-size: 10px;
     text-transform: uppercase;
