@@ -1,3 +1,19 @@
+/* Template
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+}
+.footer {
+    width: 100%;
+    background-color: #FFF;
+    position:absolute;
+    margin-top: 25px;
+}
+
 /* Remove Blogger default cookies warning
 -------------------------------------------------- */
 #cookieChoiceInfo {
@@ -41,7 +57,7 @@
 }
 
 .sp-navbar .nav-item {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cormorant Garamond', serif !important;
     font-weight: 400;
     font-size: 10px;
     text-transform: uppercase;
@@ -287,10 +303,6 @@ a:active {
     color: #000 !important;
 }
 
-.mobile-nav {
-    font-size: 20px !important;
-}
-
 /* Pinterest Board Widget
 -------------------------------------------------- */
 .super-responsive-wrapper {
@@ -426,4 +438,142 @@ a:active {
 
 #blog-pager-older-link {
     float: right;
+}
+
+/* Mobile Page Navigation
+-------------------------------------------------- */
+.blog-pager-mobile {
+    margin: 10px 0 -50px 0 !important;
+}
+
+/* Post Title
+-------------------------------------------------- */
+/* Web */
+h3.post-title {
+    font-style: normal !important;
+    color: #000000 !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+.post-title a {
+    color: #000;
+}
+.post-title a:hover {
+    color: #E6DFE4
+}
+
+/* Mobile */
+.mobile-index-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-style: normal !important;
+    color: #000000 !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+.mobile-index-title a {
+    color: #000;
+}
+.mobile-index-title a:hover {
+    color: #E6DFE4;
+}
+
+/* Date
+-------------------------------------------------- */
+h2.date-header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 0 !important;
+    text-align: center;
+}
+.date-header span {
+    padding: 5px 15px 5px 15px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: #F5F2F4;
+}
+
+/* Mobile */
+.date-header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 0 !important;
+    text-align: center;
+}
+
+/* Footer
+-------------------------------------------------- */
+.footer-text {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Footer Social Media Icons
+-------------------------------------------------- */
+.fa-sp {
+    color: #000;
+    background: #F5F2F4;
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    margin-right: 0;
+    font-size: 14px;
+    vertical-align: 0 !important;
+}
+
+.fa-sp-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.fa-sp-mobile {
+    font-size: 15px !important;
+}
+
+/* Hide "Ver Versão da Web" link
+-------------------------------------------------- */
+.mobile-desktop-link {
+    display: none;
+}
+
+/* Mobile Post Footer
+-------------------------------------------------- */
+.mobile-index-comment {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+}
+
+.mobile-index-comment a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000 !important;
+}
+
+.mobile-index-comment a:hover {
+    color: #F5F2F4 !important;
 }
