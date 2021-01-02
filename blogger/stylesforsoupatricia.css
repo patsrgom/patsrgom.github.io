@@ -1,0 +1,429 @@
+/* Remove Blogger default cookies warning
+-------------------------------------------------- */
+#cookieChoiceInfo {
+    display: none;
+}
+
+/* Header Logo Image and Title
+-------------------------------------------------- */
+.sp-logo-img {
+    width: 10%;
+    margin-bottom: -1rem;
+}
+
+.sp-blog-title {
+    margin-top: 50px;
+}
+
+/* Navbar
+-------------------------------------------------- */
+.sp-navbar {
+    background-color: #F5F2F4;
+}
+
+.sp-navbar a {
+    color: black !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.sp-navbar .navbar-toggler {
+    border-color: black;
+}
+
+.sp-navbar .navbar-brand {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+}
+
+.sp-navbar .nav-item {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    clear: both;
+}
+
+.sp-navbar .nav-icon {
+    font-size: 12px;
+}
+
+/* Post Footer
+-------------------------------------------------- */
+.post-footer {
+    /* Adds margin between the end of a post and the beggining of another */
+    margin-bottom: 30px !important;
+}
+
+.post-footer-line {
+    /* centers the div of shared buttons */
+    text-align: center !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+.post-footer a {
+    /* custom link colors for the footer */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #000 !important;
+}
+
+.post-footer a:hover {
+    color: #F5F2F4 !important;
+}
+
+.post-labels {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Post Images
+-------------------------------------------------- */
+.post-body img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    box-shadow: none;
+    border: none;
+    padding: 0px;
+}
+
+/* Image Thumbnail (Mobile)
+-------------------------------------------------- */
+.mobile-index-thumbnail img {
+    width: 100% !important;
+}
+
+/* Post Text
+-------------------------------------------------- */
+.post-body div {
+    font-size: 16px !important;
+    font-family: 'Cormorant Garamond', serif !important;
+    color: #000;
+}
+
+/* Post Text (Mobile)
+-------------------------------------------------- */
+.mobile-post-body {
+    text-align: center !important;
+    padding: 10px !important;
+    font-size: 12px !important;
+    font-family: 'Cormorant Garamond', serif !important;
+    color: #000;
+}
+
+/* Links
+-------------------------------------------------- */
+a:link {
+    text-decoration: none !important;
+    color: #F5F2F4;
+    transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+    max-width: 100%;
+}
+
+a:visited {
+    color: #E6DFE4;
+}
+
+a:hover {
+    color: #E6DFE4;
+}
+
+a:active {
+    color: #E6DFE4;
+}
+
+/* Jump Link
+-------------------------------------------------- */
+.jump-link {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.more,
+.jump-link>a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border: 2px solid #F5F2F4 !important;
+    background: #F5F2F4;
+    color: #000;
+    display: inline-block !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+}
+
+.more:hover,
+.jump-link>a:hover {
+    background: #E6DFE4 !important;
+    border-color: #E6DFE4 !important;
+    color: #FFF !important;
+}
+
+.jump-link>a {
+    color: #000;
+}
+
+@media screen and (max-width: 480px) {
+    .jump-link>a {
+        padding: 12px 30px !important;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .jump-link>a {
+        padding: 12px 40px !important;
+    }
+}
+
+/* Sidebar Widget Titles and Content
+-------------------------------------------------- */
+.widget-title,
+#Followers1 h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background: #F5F2F4 !important;
+    color: #000000 !important;
+    line-height: 32px !important;
+    margin-bottom: 0.5rem !important;
+    position: relative !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+}
+
+.widget-content p {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 16px !important;
+}
+
+/* Post Quotes
+-------------------------------------------------- */
+.post blockquote {
+    display: block !important;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px !important;
+    background: #fff !important;
+    padding: 15px 20px 15px 45px !important;
+    margin: 0 0 20px !important;
+    position: relative !important;
+    line-height: 1.2 !important;
+    color: #666 !important;
+    text-align: justify !important;
+    border-left: 15px solid #E6DFE4 !important;
+    border-right: 2px solid #E6DFE4 !important;
+    -moz-box-shadow: 2px 2px 15px #ccc !important;
+    -webkit-box-shadow: 2px 2px 15px #ccc !important;
+    box-shadow: 2px 2px 15px #ccc !important;
+}
+
+.post blockquote::before {
+    content: "\201C";
+    /*Unicode for Left Double Quotes*/
+    font-family: Georgia, serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #F5F2F4;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.post blockquote::after {
+    content: "";
+}
+
+.post blockquote em {
+    font-style: italic;
+}
+
+/* Blog Header
+-------------------------------------------------- */
+.Header h1 {
+    font-family: 'Cormorant Garamond', serif !important;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .Header h1 {
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .Header h1 {
+        font-size: 72px !important;
+    }
+}
+
+.title a:link {
+    color: #000 !important;
+}
+
+.title a:visited {
+    color: #000 !important;
+}
+
+.mobile-nav {
+    font-size: 20px !important;
+}
+
+/* Pinterest Board Widget
+-------------------------------------------------- */
+.super-responsive-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.board-wrapper {
+    margin: auto;
+    text-align: center;
+}
+
+.board-wrapper span {
+    overflow: hidden;
+    max-width: 100% !important;
+}
+
+/* Cards
+-------------------------------------------------- */
+.card-title {
+    font-family: 'Cormorant Garamond', serif !important;
+    text-transform: uppercase;
+    font-size: 16px !important;
+}
+
+.card-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px !important;
+}
+
+/* Search - No Results
+-------------------------------------------------- */
+.status-msg-wrap {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+}
+
+.status-msg-border {
+    border: 0;
+    opacity: 0;
+}
+
+/* Comments
+-------------------------------------------------- */
+.comments h4 {
+    /* Comments title */
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.comments .avatar-image-container img {
+    /* User image */
+    border-radius: 0;
+}
+
+.comments .comments-content .user {
+    /* User name*/
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.comments .comments-content .datetime {
+    /* Comment date */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+}
+
+.comments .comments-content .datetime a {
+    color: #000;
+}
+
+.comments .comments-content .comment-content {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 14px;
+}
+
+.comments .comment .comment-actions a {
+    /*Answer and Delete*/
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.comments .continue a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.comments .thread-toggle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.comments .thread-toggle a {
+    color: #000;
+}
+
+/* Navigation Links
+-------------------------------------------------- */
+#blog-pager {
+    clear: both;
+    text-align: center;
+}
+
+#blog-pager a:link,
+#blog-pager a:visited {
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#blog-pager a:hover {
+    color: #E6DFE4 !important;
+}
+
+#blog-pager-newer-link {
+    float: left;
+}
+
+#blog-pager-older-link {
+    float: right;
+}
