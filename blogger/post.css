@@ -1,74 +1,3 @@
-/* Template
--------------------------------------------------- */
-html {
-    position: relative;
-    min-height: 100%;
-}
-body {
-    margin-bottom: 60px;
-}
-.footer {
-    width: 100%;
-    background-color: #FFF;
-    position:absolute;
-    margin-top: 25px;
-}
-
-/* Remove Blogger default cookies warning
--------------------------------------------------- */
-#cookieChoiceInfo {
-    display: none;
-}
-
-/* Header Logo Image and Title
--------------------------------------------------- */
-.sp-logo-img {
-    width: 10%;
-    margin-bottom: -1rem;
-}
-
-.sp-blog-title {
-    margin-top: 50px;
-}
-
-/* Navbar
--------------------------------------------------- */
-.sp-navbar {
-    background-color: #F5F2F4;
-}
-
-.sp-navbar a {
-    color: black !important;
-}
-
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-}
-
-.sp-navbar .navbar-toggler {
-    border-color: black;
-}
-
-.sp-navbar .navbar-brand {
-    font-family: 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: black;
-}
-
-.sp-navbar .nav-item {
-    font-family: 'Cormorant Garamond', serif !important;
-    font-weight: 400;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    clear: both;
-}
-
-.sp-navbar .nav-icon {
-    font-size: 12px;
-}
-
 /* Post Footer
 -------------------------------------------------- */
 .post-footer {
@@ -138,28 +67,24 @@ body {
     color: #000;
 }
 
-/* Links
+/* Mobile Post Footer
 -------------------------------------------------- */
-a:link {
-    text-decoration: none !important;
-    color: #F5F2F4;
-    transition: all 0.25s ease-out;
-    -o-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    -webkit-transition: all 0.25s ease-out;
-    max-width: 100%;
+.mobile-index-comment {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    margin-top: 10px !important;
 }
 
-a:visited {
-    color: #E6DFE4;
+.mobile-index-comment a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000 !important;
 }
 
-a:hover {
-    color: #E6DFE4;
-}
-
-a:active {
-    color: #E6DFE4;
+.mobile-index-comment a:hover {
+    color: #F5F2F4 !important;
 }
 
 /* Jump Link
@@ -211,27 +136,6 @@ a:active {
     }
 }
 
-/* Sidebar Widget Titles and Content
--------------------------------------------------- */
-.widget-title,
-#Followers1 h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    background: #F5F2F4 !important;
-    color: #000000 !important;
-    line-height: 32px !important;
-    margin-bottom: 0.5rem !important;
-    position: relative !important;
-    text-align: center !important;
-    text-transform: uppercase !important;
-}
-
-.widget-content p {
-    font-family: 'Cormorant Garamond', serif !important;
-    font-size: 16px !important;
-}
-
 /* Post Quotes
 -------------------------------------------------- */
 .post blockquote {
@@ -270,80 +174,6 @@ a:active {
 
 .post blockquote em {
     font-style: italic;
-}
-
-/* Blog Header
--------------------------------------------------- */
-.Header h1 {
-    font-family: 'Cormorant Garamond', serif !important;
-    color: #000000;
-    text-align: center;
-    margin: 0 auto;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-@media screen and (max-width: 480px) {
-    .Header h1 {
-        font-size: 32px !important;
-    }
-}
-
-@media screen and (min-width: 481px) {
-    .Header h1 {
-        font-size: 72px !important;
-    }
-}
-
-.title a:link {
-    color: #000 !important;
-}
-
-.title a:visited {
-    color: #000 !important;
-}
-
-/* Pinterest Board Widget
--------------------------------------------------- */
-.super-responsive-wrapper {
-    width: 100%;
-    margin: auto;
-}
-
-.board-wrapper {
-    margin: auto;
-    text-align: center;
-}
-
-.board-wrapper span {
-    overflow: hidden;
-    max-width: 100% !important;
-}
-
-/* Cards
--------------------------------------------------- */
-.card-title {
-    font-family: 'Cormorant Garamond', serif !important;
-    text-transform: uppercase;
-    font-size: 16px !important;
-}
-
-.card-text {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 12px !important;
-}
-
-/* Search - No Results
--------------------------------------------------- */
-.status-msg-wrap {
-    font-size: 16px;
-    font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
-}
-
-.status-msg-border {
-    border: 0;
-    opacity: 0;
 }
 
 /* Comments
@@ -407,43 +237,6 @@ a:active {
 
 .comments .thread-toggle a {
     color: #000;
-}
-
-/* Navigation Links
--------------------------------------------------- */
-#blog-pager {
-    clear: both;
-    text-align: center;
-}
-
-#blog-pager a:link,
-#blog-pager a:visited {
-    color: #000;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 12px;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-#blog-pager a:hover {
-    color: #E6DFE4 !important;
-}
-
-#blog-pager-newer-link {
-    float: left;
-}
-
-#blog-pager-older-link {
-    float: right;
-}
-
-/* Mobile Page Navigation
--------------------------------------------------- */
-.blog-pager-mobile {
-    margin: 10px 0 -50px 0 !important;
 }
 
 /* Post Title
@@ -512,68 +305,4 @@ h2.date-header {
     letter-spacing: 1px;
     margin: 0 !important;
     text-align: center;
-}
-
-/* Footer
--------------------------------------------------- */
-.footer-text {
-    color: #000;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-align: center;
-    font-size: 10px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-/* Footer Social Media Icons
--------------------------------------------------- */
-.fa-sp {
-    color: #000;
-    background: #F5F2F4;
-    margin: auto;
-    text-align: center;
-    padding: 8px;
-    margin-right: 0;
-    font-size: 14px;
-    vertical-align: 0 !important;
-}
-
-.fa-sp-text {
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #000;
-    font-size: 10px;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
-    margin-left: 5px;
-}
-
-.fa-sp-mobile {
-    font-size: 15px !important;
-}
-
-/* Hide "Ver Versão da Web" link
--------------------------------------------------- */
-.mobile-desktop-link {
-    display: none;
-}
-
-/* Mobile Post Footer
--------------------------------------------------- */
-.mobile-index-comment {
-    text-align: center !important;
-    margin-bottom: 20px !important;
-    margin-top: 10px !important;
-}
-
-.mobile-index-comment a {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #000 !important;
-}
-
-.mobile-index-comment a:hover {
-    color: #F5F2F4 !important;
 }

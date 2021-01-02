@@ -1,0 +1,116 @@
+/* Template
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+}
+.footer {
+    width: 100%;
+    background-color: #FFF;
+    position:absolute;
+    margin-top: 25px;
+}
+
+/* Remove Blogger default cookies warning
+-------------------------------------------------- */
+#cookieChoiceInfo {
+    display: none;
+}
+
+/* Links
+-------------------------------------------------- */
+a:link {
+    text-decoration: none !important;
+    color: #F5F2F4;
+    transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+    max-width: 100%;
+}
+
+a:visited {
+    color: #E6DFE4;
+}
+
+a:hover {
+    color: #E6DFE4;
+}
+
+a:active {
+    color: #E6DFE4;
+}
+
+/* Sidebar Widget Titles and Content
+-------------------------------------------------- */
+.widget-title,
+#Followers1 h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background: #F5F2F4 !important;
+    color: #000000 !important;
+    line-height: 32px !important;
+    margin-bottom: 0.5rem !important;
+    position: relative !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+}
+
+.widget-content p {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 16px !important;
+}
+
+/* Search - No Results
+-------------------------------------------------- */
+.status-msg-wrap {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+}
+
+.status-msg-border {
+    border: 0;
+    opacity: 0;
+}
+
+/* Navigation Links
+-------------------------------------------------- */
+#blog-pager {
+    clear: both;
+    text-align: center;
+}
+
+#blog-pager a:link,
+#blog-pager a:visited {
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#blog-pager a:hover {
+    color: #E6DFE4 !important;
+}
+
+#blog-pager-newer-link {
+    float: left;
+}
+
+#blog-pager-older-link {
+    float: right;
+}
+
+/* Mobile Page Navigation
+-------------------------------------------------- */
+.blog-pager-mobile {
+    margin: 10px 0 -50px 0 !important;
+}

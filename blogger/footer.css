@@ -1,0 +1,43 @@
+/* Footer
+-------------------------------------------------- */
+.footer-text {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Footer Social Media Icons
+-------------------------------------------------- */
+.fa-sp {
+    color: #000;
+    background: #F5F2F4;
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    margin-right: 0;
+    font-size: 14px;
+    vertical-align: 0 !important;
+}
+
+.fa-sp-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.fa-sp-mobile {
+    font-size: 15px !important;
+}
+
+/* Hide "Ver Versão da Web" link
+-------------------------------------------------- */
+.mobile-desktop-link {
+    display: none;
+}

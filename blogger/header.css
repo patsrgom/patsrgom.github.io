@@ -1,0 +1,92 @@
+/* Header Logo Image and Title
+-------------------------------------------------- */
+.sp-logo-img {
+    width: 10%;
+    margin-bottom: -1rem;
+}
+
+.sp-blog-title {
+    margin-top: 50px;
+}
+
+/* Navbar
+-------------------------------------------------- */
+.sp-navbar {
+    background-color: #F5F2F4;
+}
+
+.sp-navbar a {
+    color: black !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.sp-navbar .navbar-toggler {
+    border-color: black;
+}
+
+.sp-navbar .navbar-brand {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+}
+
+.sp-navbar .nav-item {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    clear: both;
+}
+
+.sp-navbar .nav-icon {
+    font-size: 12px;
+}
+
+/* Cards
+-------------------------------------------------- */
+.card-title {
+    font-family: 'Cormorant Garamond', serif !important;
+    text-transform: uppercase;
+    font-size: 16px !important;
+}
+
+.card-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px !important;
+}
+
+/* Blog Header
+-------------------------------------------------- */
+.Header h1 {
+    font-family: 'Cormorant Garamond', serif !important;
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+    .Header h1 {
+        font-size: 32px !important;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .Header h1 {
+        font-size: 72px !important;
+    }
+}
+
+.title a:link {
+    color: #000 !important;
+}
+
+.title a:visited {
+    color: #000 !important;
+}
