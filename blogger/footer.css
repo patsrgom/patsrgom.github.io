@@ -41,3 +41,17 @@
 .mobile-desktop-link {
     display: none;
 }
+
+/* Custom Cookies Warning
+-------------------------------------------------- */
+.alert-sp {
+    color: black;
+    background-color: #f5f2f4;
+    border-color: #f5f2f4;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+}
+
+.alert {
+    margin-bottom: 0;
+}
