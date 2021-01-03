@@ -58,33 +58,6 @@
     background-color: #F5F2F4;
 }
 
-/* Cards
--------------------------------------------------- */
-.card-title {
-    font-family: 'Cormorant Garamond', serif !important;
-    text-transform: uppercase;
-    font-size: 16px !important;
-}
-
-.card-text {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 12px !important;
-}
-
-.card-body {
-    padding: 10px 0 10px 0 !important;
-}
-
-.card-footer {
-    padding: 0 0 10px 0 !important;
-    background-color: transparent;
-    border-top: 0;
-}
-
-.card-img-top {
-    height: 50% !important;
-}
-
 /* Blog Header
 -------------------------------------------------- */
 .Header h1 {
@@ -114,4 +87,27 @@
 
 .title a:visited {
     color: #000 !important;
+}
+
+/* Carousel
+-------------------------------------------------- */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.carousel-caption {
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif !important;
+}
+.carousel-caption-title {
+    padding: 0 20px 0 20px;
+    color: #000;
+}
+.carousel-caption-subtitle {
+    font-family: 'Josefin Sans', sans-serif !important;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 10px;
 }
