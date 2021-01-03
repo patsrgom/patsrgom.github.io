@@ -24,7 +24,7 @@ body {
 -------------------------------------------------- */
 a:link {
     text-decoration: none !important;
-    color: #F5F2F4;
+    color: #E6DFE4;
     transition: all 0.25s ease-out;
     -o-transition: all 0.25s ease-out;
     -moz-transition: all 0.25s ease-out;
@@ -33,15 +33,15 @@ a:link {
 }
 
 a:visited {
-    color: #E6DFE4;
+    color: #F5F2F4;
 }
 
 a:hover {
-    color: #E6DFE4;
+    color: #F5F2F4;
 }
 
 a:active {
-    color: #E6DFE4;
+    color: #F5F2F4;
 }
 
 /* Sidebar Widget Titles and Content
