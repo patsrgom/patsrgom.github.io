@@ -43,6 +43,11 @@
     padding: 0px;
 }
 
+/* Mobile */
+html .post-body img {
+    max-width: 100%;
+}
+
 /* Image Thumbnail (Mobile)
 -------------------------------------------------- */
 .mobile-index-thumbnail img {
@@ -157,8 +162,7 @@
 }
 
 .post blockquote::before {
-    content: "\201C";
-    /*Unicode for Left Double Quotes*/
+    content: "\201C"; /*Unicode for Left Double Quotes*/
     font-family: Georgia, serif;
     font-size: 60px;
     font-weight: bold;
@@ -180,7 +184,7 @@
 -------------------------------------------------- */
 .comments h4 {
     /* Comments title */
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -305,4 +309,20 @@ h2.date-header {
     letter-spacing: 1px;
     margin: 0 !important;
     text-align: center;
+}
+
+/* Image Caption
+-------------------------------------------------- */
+td.tr-caption {
+    background-color: #F5F2F4;
+    color: #000;
+    padding: 5px 20px;
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+}
+td.tr-caption a:visited {
+    color: #000 !important;
+}
+td.tr-caption a:link {
+    color: #000 !important;
 }
