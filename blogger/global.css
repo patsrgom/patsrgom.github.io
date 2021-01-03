@@ -114,3 +114,22 @@ a:active {
 .blog-pager-mobile {
     margin: 10px 0 -50px 0 !important;
 }
+
+/* Remove (Atom) from Footer
+-------------------------------------------------- */
+.feed-links {
+    display: none;
+}
+
+/* Archives
+-------------------------------------------------- */
+#BlogArchive1_ArchiveMenu{
+    background: #E6DFE4;
+    border: 1px solid #E6DFE4;
+    color: #000;
+    font-size:12px;
+    padding:10px;
+    width:100%;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif !important;
+}
