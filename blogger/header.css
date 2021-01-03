@@ -71,6 +71,16 @@
     font-size: 12px !important;
 }
 
+.card-body {
+    padding: 10px 0 10px 0 !important;
+}
+
+.card-footer {
+    padding: 0 0 10px 0 !important;
+    background-color: transparent;
+    border-top: 0;
+}
+
 /* Blog Header
 -------------------------------------------------- */
 .Header h1 {
