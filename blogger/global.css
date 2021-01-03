@@ -187,3 +187,87 @@ a:active {
     border-radius: 0 !important;
     border: 1px solid #F5F2F4;
 }
+
+/* Popular Posts Widget
+-------------------------------------------------- */
+#PopularPosts1 ul {
+    counter-reset: popularcount;
+    margin: 0;
+    padding: 0;
+}
+#PopularPosts1 ul li {
+    width: 100%;
+    list-style: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+    position: relative;
+    border: 0;
+}
+#PopularPosts1 .item-thumbnail a {
+    clip: auto;
+    display: block;
+    height: auto;
+    height: 120px;
+}
+#PopularPosts1 .item-thumbnail {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+#PopularPosts1 .item-thumbnail::before {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 29px solid #FFF;
+    border-left: 29px solid transparent;
+    border-right: 29px solid transparent;
+    bottom: 0px;
+    content: '';
+    height: 0;
+    width: 0px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    z-index: 3;
+}
+#PopularPosts1 .item-thumbnail:after {
+    color: #000;
+    content: counter(popularcount, decimal);
+    counter-increment: popularcount;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 14px;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    z-index: 4;
+}
+#PopularPosts1 .item-thumbnail img {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+#PopularPosts1 .item-title {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+#PopularPosts1 .item-title a {
+    color: #000;
+    text-decoration: none;
+}
+#PopularPosts1 .item-snippet {
+    padding: 10px 10px;
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 14px;
+    text-align: center;
+}
