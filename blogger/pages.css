@@ -1,0 +1,7 @@
+#soupat_sidebar {
+    display: none;
+}
+
+#soupat_main {
+    display: contents;
+}
