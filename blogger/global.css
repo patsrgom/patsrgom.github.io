@@ -33,15 +33,15 @@ a:link {
 }
 
 a:visited {
-    color: #E2C4C0;
+    color: #EAD4D1;
 }
 
 a:hover {
-    color: #E2C4C0;
+    color: #EAD4D1;
 }
 
 a:active {
-    color: #E2C4C0;
+    color: #EAD4D1;
 }
 
 /* Sidebar Widget Titles and Content
@@ -51,7 +51,7 @@ a:active {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
-    background: #E2C4C0 !important;
+    background: #EAD4D1 !important;
     color: #000000 !important;
     line-height: 32px !important;
     margin-bottom: 0.5rem !important;
@@ -161,13 +161,13 @@ a:active {
 /* Custom Button
 -------------------------------------------------- */
 .btn-sp {
-    background-color: #E2C4C0;
+    background-color: #EAD4D1;
     color: #000 !important;
     border-radius: 0 !important;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
-    border: 2px solid #E2C4C0 !important;
+    border: 2px solid #EAD4D1 !important;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -185,7 +185,7 @@ a:active {
     font-family: 'Cormorant Garamond', serif !important;
     color: #000;
     border-radius: 0 !important;
-    border: 1px solid #E2C4C0;
+    border: 1px solid #EAD4D1;
 }
 
 /* Popular Posts Widget

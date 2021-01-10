@@ -22,7 +22,7 @@
 }
 
 .post-footer a:hover {
-    color: #E2C4C0 !important;
+    color: #EAD4D1 !important;
 }
 
 .post-labels {
@@ -89,7 +89,7 @@ html .post-body img {
 }
 
 .mobile-index-comment a:hover {
-    color: #E2C4C0 !important;
+    color: #EAD4D1 !important;
 }
 
 /* Jump Link
@@ -104,8 +104,8 @@ html .post-body img {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 12px;
     font-weight: 400;
-    border: 2px solid #E2C4C0 !important;
-    background: #E2C4C0;
+    border: 2px solid #EAD4D1 !important;
+    background: #EAD4D1;
     color: #000;
     display: inline-block !important;
     text-align: center !important;
@@ -166,7 +166,7 @@ html .post-body img {
     font-family: Georgia, serif;
     font-size: 60px;
     font-weight: bold;
-    color: #E2C4C0;
+    color: #EAD4D1;
     position: absolute;
     left: 10px;
     top: 5px;
@@ -298,7 +298,7 @@ h2.date-header {
     padding: 5px 15px 5px 15px;
     position: relative;
     text-transform: uppercase;
-    background-color: #E2C4C0;
+    background-color: #EAD4D1;
 }
 
 /* Mobile */
@@ -314,7 +314,7 @@ h2.date-header {
 /* Image Caption
 -------------------------------------------------- */
 td.tr-caption {
-    background-color: #E2C4C0;
+    background-color: #EAD4D1;
     color: #000;
     padding: 5px 20px;
     position: relative;
