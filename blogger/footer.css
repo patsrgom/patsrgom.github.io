@@ -13,7 +13,7 @@
 -------------------------------------------------- */
 .fa-sp {
     color: #000;
-    background: #F5F2F4;
+    background: #E2C4C0;
     margin: auto;
     text-align: center;
     padding: 8px;
@@ -46,8 +46,8 @@
 -------------------------------------------------- */
 .alert-sp {
     color: black;
-    background-color: #f5f2f4;
-    border-color: #f5f2f4;
+    background-color: #E2C4C0;
+    border-color: #E2C4C0;
     font-family: 'Josefin Sans';
     font-size: 12px;
 }
