@@ -1,0 +1,24 @@
+#soupat_sidebar {
+    display: none;
+}
+
+#soupat_main {
+    display: contents;
+    width: 100%;
+}
+
+#mainbody {
+    width: 100%;
+}
+
+.footer {
+    bottom: 0;
+}
+
+#soupat_carousel {
+    display: none;
+}
+
+#soupat_navbar {
+    display: none;
+}
