@@ -177,7 +177,7 @@ a:active {
 .btn-sp:active,
 .btn-sp:focus
  {
-    background-color: #CA948B;
+    background-color: #CA948B !important;
     border: 2px solid #CA948B !important;
     color: #FFF !important;
 }
