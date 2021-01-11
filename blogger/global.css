@@ -178,6 +178,12 @@ a:active {
     color: #FFF !important;
 }
 
+.btn-sp:visited {
+    background-color: #CA948B;
+    border: 2px solid #CA948B !important;
+    color: #FFF !important;
+}
+
 /* Search Form
 -------------------------------------------------- */
 .sp-search {
